@@ -2,8 +2,21 @@
 public class HomeMain {
 	
 	public static void main (String[] args) {
-		Ville ville = new Ville("Lens",45_000,"france" );
-		System.out.println(ville.descriptionVille());
-		System.out.print("Il y a " + ville.getCompteur() + " villes.");
+		//On déclare v
+		Capitale v = null;
+		//on teste la creation de la ville
+		try {
+			v = new Capitale ("Le", 12000, "France", "Stade");
+		} 
+		catch (NombreHabitantException | NomVilleException e2) {
+			System.out.println(e2.getMessage());
+		}
+		finally {
+			if (v == null)
+				v = new Capitale();
+		}
+		System.out.println(v.toString());
+
 	}
+	
 }

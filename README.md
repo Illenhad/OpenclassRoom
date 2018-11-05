@@ -8,6 +8,8 @@ Cours:
 
 - Démarrez votre projet avec Python
 
-- Apprenez à programmer en Java
+- Apprenez à programmer en Python
 
 - Démarrez votre projet avec Java
+
+- Apprenez à programmer en Java

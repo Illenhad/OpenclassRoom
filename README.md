@@ -1,6 +1,6 @@
 # OpenclassRoom
 
-Contient l'ensemble des fichiers crée lors des cours Openclassroom
+Contient l'ensemble des fichiers crées lors des cours Openclassroom
 
 Cours: 
 

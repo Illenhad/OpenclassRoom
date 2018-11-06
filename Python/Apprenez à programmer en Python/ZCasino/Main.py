@@ -4,8 +4,9 @@ import math
 
 #Variable
 total = 10
-compteur = 1
+compteur = 0
 continu = True
+
 
 
 while continu :
@@ -50,9 +51,14 @@ while continu :
 
     # Continue
     if continu:
-        a = input("Voulez-vous continuer ? O/N ")
-        if a == "N" or a == "n":
+        reponse = str()
+        while reponse.lower() != "o" and reponse.lower() != "n":
+            print("Voulez-vous continuer ? O/N ")
+            reponse = input()
+
+        if reponse.lower() == "n":
             continu = False
+
 
 
 print("La partie est finie, votre total est de", total, "après", compteur, "parties.")

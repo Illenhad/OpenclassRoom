@@ -13,5 +13,5 @@ Cours:
 - Démarrez votre projet avec Java
 
 - Apprenez à programmer en Java
-
-- Projet Perso: Dossier contenant l'ensemble d'essais personnel en parallèle des cours.
+ 
+- Apprenez à coder avec JavaScript
